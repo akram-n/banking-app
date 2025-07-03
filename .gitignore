@@ -4,10 +4,6 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-# Ignore sensitive config
-src/main/resources/application.properties
-src/main/resources/application.yml
-
 .DS_Store
 
 ### STS ###
