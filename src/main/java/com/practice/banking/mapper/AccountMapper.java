@@ -6,9 +6,9 @@ import com.practice.banking.entity.Account;
 public class AccountMapper {
     public static Account mapToAccount(AccountDTO accountDTO) {
         Account account = new Account(
-                accountDTO.getId(),
-                accountDTO.getAccountHolderName(),
-                accountDTO.getBalance()
+                accountDTO.id(),
+                accountDTO.accountHolderName(),
+                accountDTO.balance()
         );
         return account;
     }
